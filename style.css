@@ -1,1 +1,12 @@
-
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header{
+     flex: 15%;
+     background-color: lightgray;
+}
+.menu{
+    flex: 5%;
+    background:
