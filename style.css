@@ -1,19 +1,34 @@
 .container{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 .header{
-     flex: 15%;
-     background-color: lightgray;
+flex: 15%;
+  background-color: lightblue;
 }
 .menu{
-    flex: 5%;
-    background-color: darkgray;
+flex: 10%;
+  background-color: darkgray;
+  color: white;
+  display: flex;
+}
+.menu a{
+padding: 15px 20px;
+}
+.menu hover{
+background-color: lightgray;
+  color: black;
 }
 .content{
-flex: 70%;
-background-color: white;
+flex: 65%;
+  background-color: white;
+}
+.content iframe{
+  flex: 1;
+  border: none;
+  width: 100%;
+  height: 100%;
 }
 .footer{
   flex: 10%;
