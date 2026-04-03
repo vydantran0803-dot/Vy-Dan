@@ -8,15 +8,15 @@
     background: url("images/Gemini_Generated_Image_l69gqgl69gqgl69g.png") center/100%;
     aspect-ratio: 6/1;
 }
+.menu hover{
+    background-color: 555C39;
+    color: E1EBBA;
+}
 .menu{
     flex: 5%;
     background-color: A0C79F;
     color: 291F1B;
     display: flex;
-}
-.menu hover{
-    background-color: 555C39;
-    color: E1EBBA;
 }
 .menu a{
     padding: 15px 20px;
