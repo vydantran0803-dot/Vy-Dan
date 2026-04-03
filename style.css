@@ -14,7 +14,7 @@
     color: 291F1B;
     display: flex;
 }
-.menu:hover{
+.menu hover{
     background-color: 555C39;
     color: E1EBBA;
 }
